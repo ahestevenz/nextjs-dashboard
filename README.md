@@ -38,3 +38,21 @@ Here Are the Topics We’ll Cover
 - Two different ways of styling: Tailwind and CSS Modules.
 - How to conditionally add class names with the `clsx` utility package.
 
+## [Chapter 3](https://nextjs.org/learn/dashboard-app/optimizing-fonts-images)
+
+Here Are the Topics We’ll Cover
+
+- How to add custom fonts with `next/font`.
+- How to add images with `next/image`.
+- How fonts and images are optimized in Next.js.
+
+[Cumulative Layout Shift](https://vercel.com/blog/how-core-web-vitals-affect-seo) is a metric used by Google to evaluate the performance and user experience of a website. With fonts, layout shift happens when the browser initially renders text in a fallback or system font and then swaps it out for a custom font once it has loaded. This swap can cause the text size, spacing, or layout to change, shifting elements around it.
+
+### Recommended reading
+There's a lot more to learn about these topics, including optimizing remote images and using local font files. If you'd like to dive deeper into fonts and images, see:
+
+- [Image Optimization Docs](/docs/app/building-your-application/optimizing/images)
+- [Font Optimization Docs](/docs/app/building-your-application/optimizing/fonts)
+- [Improving Web Performance with Images (MDN)](https://developer.mozilla.org/en-US/docs/Learn/Performance/Multimedia)
+- [Web Fonts (MDN)](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts)
+- [How Core Web Vitals Affect SEO](https://vercel.com/blog/how-core-web-vitals-affect-seo)
