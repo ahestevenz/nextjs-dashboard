@@ -56,3 +56,14 @@ There's a lot more to learn about these topics, including optimizing remote imag
 - [Improving Web Performance with Images (MDN)](https://developer.mozilla.org/en-US/docs/Learn/Performance/Multimedia)
 - [Web Fonts (MDN)](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts)
 - [How Core Web Vitals Affect SEO](https://vercel.com/blog/how-core-web-vitals-affect-seo)
+
+
+## [Chapter 4](https://nextjs.org/learn/dashboard-app/creating-layouts-and-pages)
+
+Here are the topics we’ll cover
+
+- Create the dashboard routes using file-system routing.
+- Understand the role of folders and files when creating new route segments.
+- Create a nested layout that can be shared between multiple dashboard pages.
+- Understand what colocation, partial rendering, and the root layout are.
+
