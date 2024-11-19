@@ -82,3 +82,12 @@ To link between pages, you'd traditionally use the <a> HTML element. At the mome
 Did you see it?
 
 There's a full page refresh on each page navigation!
+
+## [Chapter 6](https://nextjs.org/learn/dashboard-app/setting-up-your-database)
+
+Here are the topics we’ll cover
+
+- Push your project to GitHub.
+- Set up a Vercel account and link your GitHub repo for instant previews and deployments.
+- Create and link your project to a Postgres database.
+- Seed the database with initial data.
