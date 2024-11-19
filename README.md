@@ -67,3 +67,18 @@ Here are the topics we’ll cover
 - Create a nested layout that can be shared between multiple dashboard pages.
 - Understand what colocation, partial rendering, and the root layout are.
 
+## [Chapter 5](https://nextjs.org/learn/dashboard-app/navigating-between-pages)
+
+Here are the topics we’ll cover
+
+- How to use the `next/link` component.
+- How to show an active link with the `usePathname()` hook.
+- How navigation works in Next.js.
+
+### Why optimize navigation?
+
+To link between pages, you'd traditionally use the <a> HTML element. At the moment, the sidebar links use <a> elements, but notice what happens when you navigate between the home, invoices, and customers pages on your browser.
+
+Did you see it?
+
+There's a full page refresh on each page navigation!
