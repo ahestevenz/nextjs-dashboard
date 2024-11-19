@@ -91,3 +91,27 @@ Here are the topics we’ll cover
 - Set up a Vercel account and link your GitHub repo for instant previews and deployments.
 - Create and link your project to a Postgres database.
 - Seed the database with initial data.
+
+## [Chapter 7](https://nextjs.org/learn/dashboard-app/fetching-data)
+
+Here are the topics we’ll cover
+
+- Learn about some approaches to fetching data: APIs, ORMs, SQL, etc.
+- How Server Components can help you access back-end resources more securely.
+- What network waterfalls are.
+- How to implement parallel data fetching using a JavaScript pattern.
+
+### Using Server Components to Fetch Data
+
+By default, Next.js applications use React Server Components. Fetching data with Server Components is a relatively new approach, and there are several benefits to using them:
+
+- **Simplified Asynchronous Handling**:  
+  Server Components support promises, providing a simpler solution for asynchronous tasks like data fetching. You can use `async/await` syntax without relying on `useEffect`, `useState`, or external data-fetching libraries.
+
+- **Server-Side Execution**:  
+  Server Components execute on the server, allowing you to keep expensive data fetches and logic on the server while only sending the result to the client.
+
+- **Direct Database Queries**:  
+  Since Server Components execute on the server, you can query the database directly without needing an additional API layer.
+
+
