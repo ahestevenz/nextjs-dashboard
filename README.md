@@ -37,3 +37,4 @@ Here Are the Topics We’ll Cover
 - How to add a global CSS file to your application.
 - Two different ways of styling: Tailwind and CSS Modules.
 - How to conditionally add class names with the `clsx` utility package.
+
