@@ -115,3 +115,15 @@ By default, Next.js applications use React Server Components. Fetching data with
   Since Server Components execute on the server, you can query the database directly without needing an additional API layer.
 
 
+
+## [Chapter 8](https://nextjs.org/learn/dashboard-app/static-and-dynamic-rendering)
+
+Here are the topics we’ll cover:
+
+- What static rendering is and how it can improve your application's performance.
+- What dynamic rendering is and when to use it.
+- Different approaches to make your dashboard dynamic.
+- Simulate a slow data fetch to see what happens.
+
+
+
