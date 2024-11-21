@@ -126,4 +126,26 @@ Here are the topics we’ll cover:
 - Simulate a slow data fetch to see what happens.
 
 
+## [Chapter 9](https://nextjs.org/learn/dashboard-app/streaming)
+
+Here are the topics we’ll cover:
+
+- What streaming is and when you might use it.
+- How to implement streaming with `loading.tsx` and `Suspense`.
+- What loading skeletons are.
+- What route groups are, and when you might use them.
+- Where to place `Suspense` boundaries in your application.
+
+
+### What is streaming?
+Streaming is a data transfer technique that allows you to break down a route into smaller "chunks" and progressively stream them from the server to the client as they become ready.
+
+![](assets/server-rendering-with-streaming.avif)
+
+Diagram showing time with sequential data fetching and parallel data fetching
+By streaming, you can prevent slow data requests from blocking your whole page. This allows the user to see and interact with parts of the page without waiting for all the data to load before any UI can be shown to the user.
+
+![](assets/server-rendering-with-streaming-chart.avif)
+
+
 
