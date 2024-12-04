@@ -181,6 +181,11 @@ You've made several key optimizations to enhance data fetching in your applicati
    - Moved data fetching to the components that need it, isolating dynamic parts of your routes.
 
 
+## [Chapter 10](https://nextjs.org/learn/dashboard-app/adding-search-and-pagination)
 
+Here are the topics we’ll cover:
+
+- Learn how to use the Next.js APIs: `useSearchParams`, `usePathname`, and `useRouter`.
+- Implement search and pagination using URL search parameters.
 
 
