@@ -147,5 +147,40 @@ By streaming, you can prevent slow data requests from blocking your whole page. 
 
 ![](assets/server-rendering-with-streaming-chart.avif)
 
+## [Chapter 10](https://nextjs.org/learn/dashboard-app/partial-prerendering)
+
+Here are the topics we’ll cover:
+
+- What Partial Prerendering Is
+- How Partial Prerendering Works
+
+### Recap: Optimizing Data Fetching in Your Application
+
+You've made several key optimizations to enhance data fetching in your application:
+
+1. **Database Optimization**  
+   - Created a database in the same region as your application code to reduce latency between your server and database.
+
+2. **Server-Side Data Fetching with React Server Components**  
+   - Fetched data on the server, keeping expensive data fetches and logic on the server.  
+   - Reduced the client-side JavaScript bundle size.  
+   - Prevented database secrets from being exposed to the client.
+
+3. **Efficient Data Queries**  
+   - Used SQL to fetch only the data you needed, minimizing data transfer for each request.  
+   - Reduced the JavaScript needed to transform the data in-memory.
+
+4. **Parallelized Data Fetching**  
+   - Leveraged JavaScript to parallelize data fetching where it made sense.
+
+5. **Implemented Streaming**  
+   - Prevented slow data requests from blocking your entire page.  
+   - Enabled users to start interacting with the UI before everything finished loading.
+
+6. **Scoped Data Fetching**  
+   - Moved data fetching to the components that need it, isolating dynamic parts of your routes.
+
+
+
 
 
